@@ -178,18 +178,18 @@ transition: .5s ease;
     align-items: center;
     gap: 2.5rem;
     padding: 20px;
-    margin-left: 70px;
+    margin-left: 10px;
 }
 .skill-container .skill-box{
     position: relative;
     border-radius: 2rem;
-    
     overflow: hidden;
     display: flex;
 }
 .card-img{
-    width: 22rem;
+    width: 24rem;
     height: 100%;
+    padding-left: 65px;
 }
 .skill-container img{
     
@@ -239,6 +239,7 @@ transition: .5s ease;
     border-radius: 2rem;
     border: .2rem solid var(--main-color);
     overflow: hidden;
+    justify-content: center;
     text-align: center;
     display: flex;
     transition: .5s ease;
@@ -253,6 +254,10 @@ transition: .5s ease;
 }
 .project-container:hover img{
     transform: scale(1.1);
+}
+.p-card-img{
+    width: 23rem;
+    height: 100%;
 }
 .project-box .project-layer{
     position: absolute;
