@@ -99,6 +99,10 @@ span{
     animation: floatImage 4s ease-in-out infinite;
     
 }
+.img-fluid{
+    width: 45rem;
+    border-radius: 50%;
+}
 @keyframes floatImage{
     0%{
         transform: translateY(0);
